@@ -14,7 +14,19 @@
 }
 
 .calculator {
-    background: grey;
+    background: rgb(55, 72, 81);
     padding: 20px;
     border-radius: 10px;
 }
+
+.calculator form input {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    margin: 10px;
+    background: transparent;
+    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1), 8px 8px 15px rgb(0, 0, 0, 0.2);
+    font-size: 35px;
+    color: white;
+}
+
