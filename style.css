@@ -28,11 +28,20 @@
     box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1), 8px 8px 15px rgb(0, 0, 0, 0.2);
     font-size: 35px;
     color: white;
+    cursor: pointer;
 }
 
 form div.display {
     display: flex;
     justify-content: right;
+}
+
+form div.display input {
+    flex: 1;
+    background: rgb(190, 255, 190);
+    color: black;
+    font-size: 40px;
+    text-align: right;
 }
 
 form div input#equal {
