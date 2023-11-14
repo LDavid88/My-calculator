@@ -30,3 +30,6 @@
     color: white;
 }
 
+form div input#equal {
+    width: 145px;
+}
