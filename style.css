@@ -30,6 +30,12 @@
     color: white;
 }
 
+form div.display {
+    display: flex;
+    justify-content: right;
+}
+
 form div input#equal {
     width: 145px;
 }
+
