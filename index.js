@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.buttons').forEach((button) => {
         button.addEventListener('click', () => {
-            console.log(button.value);
+            let display = document.querySelector('.screen');
+
+            if (button.value == "AC") {
+                display.value = "";
+            }
         })
     })
 })
