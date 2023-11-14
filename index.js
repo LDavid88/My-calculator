@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (button.value == "AC") {
                 display.value = "";
+            } else if (button.value == "DE") {
+                display.value = display.value.toString().slice(0,-1);
             }
         })
     })
